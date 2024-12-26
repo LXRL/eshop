@@ -1,0 +1,26 @@
+<template>
+    <div class="classRight">
+        <h4>{{ title }}</h4>
+        <div class="info">
+            <template v-for="(item,index) in 3">
+                div.
+            </template>
+        </div>
+    </div>
+</template>
+
+<script setup>
+import { ref } from 'vue'
+const props = defineProps({
+    title: {
+        type: String,
+        default: () => ''
+    },
+    data: {
+        type: Array,
+        default: () => []
+    }
+})
+</script>
+
+<style lang="less" scoped></style>
