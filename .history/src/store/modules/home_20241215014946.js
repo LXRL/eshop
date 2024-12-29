@@ -1,1 +1,0 @@
-import { getHomeImg } from "@/service";

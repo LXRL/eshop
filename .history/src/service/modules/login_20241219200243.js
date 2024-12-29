@@ -1,2 +1,0 @@
-import hyRequest from "../request"
-
